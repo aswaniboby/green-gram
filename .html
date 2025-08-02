@@ -1,1 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GreenGram 🌿</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e6f4ea;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #2e7d32;
+    }
+    .post-form, .post-card {
+      background-color: white;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    .post-form input, .post-form textarea {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .post-form button {
+      width: 100%;
+      padding: 10px;
+      background-color: #388e3c;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .post-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+    .user {
+      font-size: 0.9em;
+      color: #555;
+    }
+    .caption {
+      font-size: 1em;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>GreenGram 🌿</h1>
 
+    <div class="post-form">
+      <input type="text" id="image-url" placeholder="Add an image" />
+      <textarea id="caption" rows="3" placeholder="What's your eco-story today?"></textarea>
+      <button onclick="addPost()">Post</button>
+    </div>
+
+    <div id="posts">
+    </div>
+  </div>
+
+  <script>
+    const posts = [
+    
+      
+      
+      {
+        user: "Narendra Modi",
+        image: "https://www.thehawk.in/_next/image?url=https%3A%2F%2Fd2py10ayqu2jji.cloudfront.net%2F5e3af89f-511d-412b-ae21-774b95f842ef%2F202506053421494-33d2201e-4781-462e-bfe4-a116dab7f10f.jpg&w=3840&q=75",
+        caption: "June 5 - World Environment Day 🌍",
+      },
+      {
+        user: "Sradhha",
+        image: "https://source.unsplash.com/featured/?urban,garden",
+        caption: "Today I installed a vertical garden in my apartment🌿 Made me realise that nature can heal your soul too",
+      },
+      {
+        user: "Nizamia Public School",
+        image: "https://www.arborday.org/sites/arborday.org/files/styles/cta_640x640/public/media/2024-09/tree-campus-k12_text-feat_young-tree-planters.jpg.webp",
+        caption: "Young tree planters in action 🌱👧🧒 future of our planet!",
+      },
+    ];
+
+    function renderPosts() {
+      const postsContainer = document.getElementById("posts");
+      postsContainer.innerHTML = "";
+      posts.forEach(post => {
+        postsContainer.innerHTML += `
+          <div class="post-card">
+            <div class="user">${post.user}</div>
+            <img src="${post.image}" alt="eco post" />
+            <div class="caption">${post.caption}</div>
+          </div>
+        `;
+      });
+    }
+
+    function addPost() {
+      const imageUrl = document.getElementById("image-url").value;
+      const caption = document.getElementById("caption").value;
+      if (imageUrl && caption) {
+        posts.unshift({ user: "you", image: imageUrl, caption: caption });
+        document.getElementById("image-url").value = "";
+        document.getElementById("caption").value = "";
+        renderPosts();
+      }
+    }
+
+    renderPosts();
+  </script>
+</body>
+</html>
