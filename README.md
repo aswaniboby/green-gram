@@ -70,20 +70,6 @@ People enter green choices on a daily basis in the app: recycling, single use pl
 
 *Infographics for sharing and creating awareness.
 
-## GitHub Repository Link
-
-https://github.com/aswaniboby/green-gram
-
-## Team Members & Roles
-
-SREYA B SANKAR - Research and Problem Analyst
-
-SS ARCHANA DEV - Solution Designer
-
-ASWANI BOBY I - Documentation and Feasibility Lead
-
-NIJA CHACKO - Presentation and Concept Lead
-
 ## Screenshot
 
 ![WhatsApp Image 2025-08-02 at 19 34 55_124c3b11](https://github.com/user-attachments/assets/c1d8e6df-f296-4fe4-8bc3-d9400cb81fc5)
@@ -92,7 +78,7 @@ NIJA CHACKO - Presentation and Concept Lead
 
 ![WhatsApp Image 2025-08-02 at 19 34 54_02b2e768](https://github.com/user-attachments/assets/3d829786-d5cc-4be7-a591-b41c7f2d5766)
 
-![WhatsApp Image 2025-08-02 at 20 08 34_203f2998](https://github.com/user-attachments/assets/decfcfde-effb-4ef6-915b-bb01200c360c)
+
 
 
 
