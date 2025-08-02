@@ -78,8 +78,7 @@ People enter green choices on a daily basis in the app: recycling, single use pl
 
 ![WhatsApp Image 2025-08-02 at 19 34 54_02b2e768](https://github.com/user-attachments/assets/3d829786-d5cc-4be7-a591-b41c7f2d5766)
 
-
-
+![WhatsApp Image 2025-08-02 at 20 43 31_2c3624c7](https://github.com/user-attachments/assets/45744a20-833a-47ec-a3eb-cb7283060f81)
 
 
 
