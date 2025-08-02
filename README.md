@@ -72,13 +72,22 @@ People enter green choices on a daily basis in the app: recycling, single use pl
 
 ## Screenshot
 
+
+
 ![WhatsApp Image 2025-08-02 at 19 34 55_124c3b11](https://github.com/user-attachments/assets/c1d8e6df-f296-4fe4-8bc3-d9400cb81fc5)
 
 ![WhatsApp Image 2025-08-02 at 19 34 54_7f1e9e36](https://github.com/user-attachments/assets/134953b0-08ae-4f38-890b-db40f78c0708)
 
 ![WhatsApp Image 2025-08-02 at 19 34 54_02b2e768](https://github.com/user-attachments/assets/3d829786-d5cc-4be7-a591-b41c7f2d5766)
+Front-end (html)
 
-![WhatsApp Image 2025-08-02 at 20 43 31_2c3624c7](https://github.com/user-attachments/assets/45744a20-833a-47ec-a3eb-cb7283060f81)
+![![WhatsApp Image 2025-08-02 at 20 32 11_45dd1c39](https://github.com/user-attachments/assets/bec28f5c-fb6b-4083-a597-3ac12fcf0fe4)
+Login Page
+
+WhatsApp Image 2025-08-02 at 20 43 31_2c3624c7](https://github.com/user-attachments/assets/45744a20-833a-47ec-a3eb-cb7283060f81)
+Figma mockup of profile
+
+
 
 
 
