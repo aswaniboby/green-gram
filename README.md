@@ -92,5 +92,8 @@ NIJA CHACKO - Presentation and Concept Lead
 
 ![WhatsApp Image 2025-08-02 at 19 34 54_02b2e768](https://github.com/user-attachments/assets/3d829786-d5cc-4be7-a591-b41c7f2d5766)
 
+![WhatsApp Image 2025-08-02 at 20 08 34_203f2998](https://github.com/user-attachments/assets/decfcfde-effb-4ef6-915b-bb01200c360c)
+
+
 
 
